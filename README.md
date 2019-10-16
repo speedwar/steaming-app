@@ -2,7 +2,7 @@
 
 ## Staging site
 
-[http://localhost:3000](http://localhost:3000)
+To visit staging site, click [https://fervent-liskov-16059c.netlify.com](https://fervent-liskov-16059c.netlify.com)
 
 ## Available Scripts
 

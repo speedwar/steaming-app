@@ -1,7 +1,11 @@
 {
-  "name": "stan-app",
-  "version": "0.1.0",
+  "name": "streaming-app",
+  "version": "0.0.1",
   "private": true,
+  "author": "Jimmy Lee",
+  "email": "jimmy@frostnovasoft.com",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/speedwar",
   "dependencies": {
     "ncp": "^2.0.0",
     "node-sass": "^4.12.0",
