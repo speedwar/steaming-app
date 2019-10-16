@@ -1,4 +1,33 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
 /node_modules
+
+# testing
+/__snapshots__
+/__coverage__
+/__test__
+/coverage
+
+# production
 /build
 /dist
+
+# auto-generated files
 .DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+capistrano.log
+/log
+*.log
+
+#intelliJ
+/.idea
+
+#Visual Studio
+/.vscode
