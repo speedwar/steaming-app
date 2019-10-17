@@ -2,7 +2,7 @@
 
 ## Staging site
 
-To visit staging site, click [https://fervent-liskov-16059c.netlify.com](https://fervent-liskov-16059c.netlify.com)
+To visit staging site, click [https://streaming-app.netlify.com/](https://streaming-app.netlify.com/)
 
 ## Available Scripts
 
