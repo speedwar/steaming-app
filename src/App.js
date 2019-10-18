@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import StHome from './components/pages/StHome';
-import StSeries from './components/pages/StSeries';
-import StMovies from './components/pages/StMovies';
+import StHome from 'components/pages/StHome';
+import StSeries from 'components/pages/StSeries';
+import StMovies from 'components/pages/StMovies';
 
 function App() {
   return (

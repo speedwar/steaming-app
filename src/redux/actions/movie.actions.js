@@ -1,7 +1,7 @@
 import { movieConstants } from './../constants';
 // import _ from 'lodash';
 
-import feedData from './../../assets/feed/sample.json';
+import feedData from 'assets/feed/sample.json';
 
 export const movieActions = {
   getMovies

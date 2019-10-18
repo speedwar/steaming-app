@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import StLayout from './../layouts/StLayout.js';
-import imgArtboxBg from './../../assets/img/placeholder.png';
+import StLayout from 'components/layouts/StLayout.js';
+import imgArtboxBg from 'assets/img/placeholder.png';
 
 const CategoryCard = props => (
   <div className="st-content-card">

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import StLayout from './../layouts/StLayout.js';
-import StProgramCard from './../partials/StProgramCard.js';
+import StLayout from 'components/layouts/StLayout.js';
+import StProgramCard from 'components/partials/StProgramCard.js';
 import { connect } from 'react-redux';
-import { movieActions } from './../../redux/actions';
+import { movieActions } from 'redux/actions';
 
 const SfMovie = (props) => {
   useEffect(() => {
