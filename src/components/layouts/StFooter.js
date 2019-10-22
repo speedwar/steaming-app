@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import StIcon from './../partials/StIcon';
+import StIcon from 'components/partials/StIcon';
 
 const StFooter = () => {
   const footerLinks = [

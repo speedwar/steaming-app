@@ -1,4 +1,4 @@
-import { seriesConstants } from './../constants';
+import { seriesConstants } from 'redux/constants';
 // import _ from 'lodash';
 
 import feedData from 'assets/feed/sample.json';

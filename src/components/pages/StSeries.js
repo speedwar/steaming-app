@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import StLayout from 'components/layouts/StLayout.js';
-import StProgramCard from 'components/partials/StProgramCard.js';
+import StLayout from 'components/layouts/StLayout';
+import StProgramCard from 'components/partials/StProgramCard';
 import { connect } from 'react-redux';
 import { seriesActions } from 'redux/actions';
 

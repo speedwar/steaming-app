@@ -1,4 +1,4 @@
-import { movieConstants } from './../constants';
+import { movieConstants } from 'redux/constants';
 // import _ from 'lodash';
 
 import feedData from 'assets/feed/sample.json';

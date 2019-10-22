@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import StTopbar from './../partials/StTopbar.js';
+import StTopbar from 'components/partials/StTopbar';
 
 const StHeader = () => (
   <>

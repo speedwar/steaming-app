@@ -1,5 +1,5 @@
-import { seriesConstants } from './../constants';
-import { dynamicSort } from './../../utils';
+import { seriesConstants } from 'redux/constants';
+import { dynamicSort } from 'utils';
 
 const initialState = {
 };

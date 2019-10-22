@@ -1,5 +1,5 @@
-import { movieConstants } from './../constants';
-import { dynamicSort } from './../../utils';
+import { movieConstants } from 'redux/constants';
+import { dynamicSort } from '/utils';
 
 const initialState = {
 };
