@@ -8,7 +8,7 @@ const SfSeries = (props) => {
   useEffect(() => {
     const { dispatch } = props;
     dispatch(seriesActions.getSeries());
-  }, []);
+  });
 
   const { seriesListData, seriesListRequesting, seriesListSuccess, seriesListFailure } = props;
   const seriesList = (

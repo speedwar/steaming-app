@@ -8,7 +8,7 @@ const SfMovie = (props) => {
   useEffect(() => {
     const { dispatch } = props;
     dispatch(movieActions.getMovies());
-  }, []);
+  })
 
   const { movieListData, movieListRequesting, movieListSuccess, movieListFailure } = props;
   const movieList = (

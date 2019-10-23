@@ -1,5 +1,5 @@
 import { movieConstants } from 'redux/constants';
-import { dynamicSort } from '/utils';
+import { dynamicSort } from 'utils';
 
 const initialState = {
 };
@@ -17,7 +17,9 @@ export function movie(state = initialState, action) {
       const fetchedData = action.data;
 
       // List filtering should be done in another call or in component level
-      const filteredMovieList = fetchedData.entries.filter(movie => movie.programType === 'movie' && movie.releaseYear >= 2010 );
+      const filteredMovieList = fetchedData.entries.filter(
+        movie => movie.programType === 'movie' && movie.releaseYear >= 2010
+      );
 
       // Ascending alphanumeric order and show first 21 cards
       const sortedMovieList = filteredMovieList.sort(dynamicSort('title')).slice(0, 21);

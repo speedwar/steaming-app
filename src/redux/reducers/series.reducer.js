@@ -17,7 +17,9 @@ export function series(state = initialState, action) {
       const fetchedData = action.data;
 
       // List filtering should be done in another call or in component level
-      const filteredSeriesList = fetchedData.entries.filter(series => series.programType === 'series' && series.releaseYear >= 2010 );
+      const filteredSeriesList = fetchedData.entries.filter(
+        series => series.programType === 'series' && series.releaseYear >= 2010
+      );
 
       // Ascending alphanumeric order and show first 21 cards
       const sortedSeriesList = filteredSeriesList.sort(dynamicSort('title')).slice(0, 21);
